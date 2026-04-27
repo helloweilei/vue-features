@@ -27,7 +27,6 @@ const vFocus = {
     },
 }
 
-// 自定义指令：点击外部关闭
 const vClickOutside = {
     mounted(el: HTMLElement, binding: { value: (e: Event) => void }) {
         (el as any).clickOutsideEvent = function (event: MouseEvent) {
